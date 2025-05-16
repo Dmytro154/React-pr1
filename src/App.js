@@ -1,13 +1,13 @@
 import './css/App.css'
 import React from 'react';
 import Form from './components/Form'
-import tree from './img/tree.jpeg'
+import city from './img/city.jpeg'
 
 function App() { 
  return (<div>
  <Form />
- <Form info="Enter info" />
- <img src={tree} />
+ <Form info="Впишіть дані 2" />
+ <img src={city} />
  </div>)
 }
 
